@@ -2,12 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  border: none;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 p,
 h1,
@@ -27,9 +21,9 @@ li {
   list-style: none;
 }
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 a {
   text-decoration: none;
@@ -37,4 +31,8 @@ a {
 
 figure {
   margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
 }
